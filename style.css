@@ -1,0 +1,50 @@
+.line {
+	background-color: black;
+	height: 1px;
+}
+.option {
+	width: 15px;
+	height: 15px;
+	border-width: 2px;
+	border-color: darkgrey;
+	background-color: darkgrey;
+}
+#medal {
+	width:75px;
+	height: 100px;
+}
+#result {
+	font-size:30px;
+	font-family: 'Roboto' , sans-serif;
+}
+#resultpercent {
+	font-size:30px;
+	font-family: 'Roboto' , sans-serif;
+}
+#time {
+	font-size:30px;
+	font-family: 'Roboto' , sans-serif;
+}
+.q {
+	font-family: 'Roboto' , sans-serif;
+	font-size: 20px;
+}
+.otext {
+	font-family: 'Roboto' , sans-serif;
+	font-weight: 200;
+}
+.space {
+	height: 5px;
+}
+#submit {
+	height: 35px;
+	width: 175px;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 20px;
+	background-color: green;
+    color: white;
+	border-width: 0px;
+}
+.subdiv {
+	text-align: center;
+}
