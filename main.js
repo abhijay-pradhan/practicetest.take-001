@@ -31,4 +31,9 @@ function submit() {
 	document.getElementById("medal").src = "https://img.pngio.com/gold-medal-gold-medal-png-406_500.png";
 	}
 	document.getElementById("time").innerHTML ="End Time:" + Date();
-}
+	document.getElementById("c1text").innerHTML = "206".fontcolor("green");
+	document.getElementById("c2text").innerHTML = "12".fontcolor("green");
+	document.getElementById("c3text").innerHTML = "Cranium".fontcolor("green");
+	document.getElementById("c4text").innerHTML = "Knee".fontcolor("green");
+	document.getElementById("c5text").innerHTML = "Spinal Cord".fontcolor("green");
+	}
