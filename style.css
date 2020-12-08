@@ -1,50 +1,49 @@
-.line {
-	background-color: black;
-	height: 1px;
+#submit {
+	background-color:rebeccapurple;
+	color: white;
+	border-width: 2px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 75px;
+}
+body {
+	background-color: #a09cd0;
+	text-align: center;
+}
+.qlabel {
+	font-family: 'Poppins' , sans-serif;
+	font-size: 20px;
+}
+.optiontext {
+	font-family: 'Poppins' , sans-serif;
 }
 .option {
-	width: 15px;
-	height: 15px;
-	border-width: 2px;
-	border-color: darkgrey;
-	background-color: darkgrey;
-}
-#medal {
-	width:75px;
-	height: 100px;
+	width: 17px;
+	margin-right: 10px;
+	height: 17px;
+	background-color: mediumpurple;
 }
 #result {
 	font-size:30px;
 	font-family: 'Roboto' , sans-serif;
+	color: white;
 }
 #resultpercent {
 	font-size:30px;
 	font-family: 'Roboto' , sans-serif;
+	color: white;
 }
-#time {
-	font-size:30px;
-	font-family: 'Roboto' , sans-serif;
-}
-.q {
-	font-family: 'Roboto' , sans-serif;
-	font-size: 20px;
-}
-.otext {
-	font-family: 'Roboto' , sans-serif;
-	font-weight: 200;
-}
-.space {
-	height: 5px;
-}
-#submit {
-	height: 35px;
-	width: 175px;
-	font-family: 'Roboto' , sans-serif;
-	font-size: 20px;
-	background-color: green;
-    color: white;
-	border-width: 0px;
-}
-.subdiv {
-	text-align: center;
+.question {
+	width: 50%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding: 10px;
+	text-align: left;
+	margin-right: 25%;
+	margin-left: 25%;
+	border-radius: 5px;
+	background-color: white;
+	 
 }

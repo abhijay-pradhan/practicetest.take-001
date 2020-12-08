@@ -1,113 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
 				<meta charset="utf-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<title>THE HUMAN SKELETON TEST</title>
-				<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Texturina:wght@100&display=swap" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+				<title>The Human Skeleton Test</title>
+				<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
-<body onload="rd()">
-	<script src="main.js"></script>
-	<script src="https://kit.fontawesome.com/13b485848c.js" crossorigin="anonymous"></script>
-	<section>
-	<div>
-	<label class="q" id="q1">1.How Many Bones Are There In Human Body?</label>
-	<div class="space"></div></div>
-	<input type="radio" class="option" name="1">
-	<label class="otext">360</label>
-	<div>
-	<input type="radio" class="option" name="1" >
-	<label class="otext">270</label>	
-	</div>
-	<input type="radio" class="option" name="1" id="c1">
-	<label class="otext" id="c1text">206</label>
-	<div>
-	<input type="radio" class="option" name="1">
-	<label class="otext">400</label>
-	</div>
-	<br>
-	<div class="line"></div>
-	<br>
-	<label class="q">2. How Many Pairs Of Ribs Are There in the Human Body?(except sternum)</label>
-	<div class="space"></div>
-	<input type="radio" class="option" name="2">
-	<label class="otext">24</label>
-	<div>
-	<input type="radio" class="option" name="2">
-	<label class="otext">8</label>	
-	</div>
-	<input type="radio" class="option" name="2">
-	<label class="otext">9</label>
-	<div>
-	<input type="radio" class="option" name="2" id="c2">
-	<label class="otext" id="c2text">12</label>
-	</div>
-	<br>
-	<div class="line"></div>
-	<br>
-	<label class="q">3. The Part Of Skull Protecting the brain is called________</label>
-	<div class="space"></div>
-	<input type="radio" class="option" name="3">
-	<label class="otext">Phalenges</label>
-	<div>
-	<input type="radio" class="option" name="3" >
-	<label class="otext">Girdle</label>	
-	</div>
-	<input type="radio" class="option" name="3">
-	<label class="otext">Stapes</label>
-	<div>
-	<input type="radio" class="option" name="3" id="c3">
-	<label class="otext" id="c3text">Cranium</label>
-	</div>
-	<br>
-	<div class="line"></div>
-		<label class="q">4.Where Is Patella Bone Located?</label>
-	<div class="space"></div>
-	<input type="radio" class="option" name="4" id="c4">
-	<label class="otext" id="c4text">Knee</label>
-	<div>
-	<input type="radio" class="option" name="4">
-	<label class="otext">Wrist</label>	
-	</div>
-	<input type="radio" class="option" name="4">
-	<label class="otext">Elbow</label>
-	<div>
-	<input type="radio" class="option" name="4">
-	<label class="otext">Feet</label>
-	</div>
-	<br>
-	<div class="line"></div>
-	<br>
-	<label class="q">5. Which Vital Organ Does Vertebral column Protect?</label>
-	<div class="space"></div>
-	<input type="radio" class="option" name="5">
-	<label class="otext">Heart</label>
-	<div>
-	<input type="radio" class="option" name="5">
-	<label class="otext">Kidney</label>	
-	</div>
-	<input type="radio" class="option" name="5">
-	<label class="otext">Lungs</label>
-	<div>
-	<input type="radio" class="option" name="5" id="c5">
-	<label class="otext" id="c5text">Spinal Cord</label>
-	</div>
-	<br>
-	<footer>
-	<div class="subdiv">
-	<input type="submit" id="submit" onclick="submit()">
+<body>
+				<script src="main.js"></script>
+	<section class="question">
+	<label class="qlabel">Q1.How Many Bones Are There In An Adult Human Body?</label><br>
 		<br>
-	<label id="result"></label>
+		<input type="radio" class="option"  name="1"><label class="optiontext">1. 360</label><br>
 		<br>
-	<label id="resultpercent"></label>
+		<input type="radio" class="option"  name="1"><label class="optiontext">2. 270</label><br>
 		<br>
-		<label id="time"></label>
+		<input type="radio" class="option" id="c1" name="1"><label class="optiontext" id="c1text">3. 206</label><br>
 		<br>
-		<img id="medal">
-	</div>
-	</footer>
+		<input type="radio" class="option"  name="1"><label class="optiontext">4. 400</label>
 	</section>
+	<section class="question">
+	<label class="qlabel">Q2. How Many Ribs Are There in the Human Body?(except sternum)</label><br>
+		<br>
+		<input type="radio" class="option"  name="2"><label class="optiontext">1. 34</label><br>
+		<br>
+		<input type="radio" class="option"  name="2"><label class="optiontext">2. 14</label><br>
+		<br>
+		<input type="radio" class="option" id="c2" name="2"><label class="optiontext" id="c2text">3. 24</label><br>
+		<br>
+		<input type="radio" class="option"  name="2"><label class="optiontext">4. 28</label>
+	</section>
+	<section class="question">
+	<label class="qlabel">Q3. The Part Of Skull Protecting the brain is called________</label><br>
+		<br>
+		<input type="radio" class="option"  name="3"><label class="optiontext">1. Stapes</label><br>
+		<br>
+		<input type="radio" class="option"  name="3"><label class="optiontext">2. Phalanges</label><br>
+		<br>
+		<input type="radio" class="option"  name="3"><label class="optiontext">3. Girdle</label><br>
+		<br>
+		<input type="radio" id="c3" class="option"  name="3"><label class="optiontext" id="c3text">4. Cranium</label>
+	</section>
+	<section class="question">
+	<label class="qlabel">Q4. Where Is Patella Bone Located?</label><br>
+		<br>
+		<input type="radio" class="option"  name="4" id="c4"><label class="optiontext" id="c4text">1. Knee</label><br>
+		<br>
+		<input type="radio" class="option"  name="4"><label class="optiontext">2. Elbow</label><br>
+		<br>
+		<input type="radio" class="option"  name="4"><label class="optiontext">3. Foot</label><br>
+		<br>
+		<input type="radio" class="option"  name="4"><label class="optiontext">4. Thighs</label>
+	</section>
+	<section class="question">
+	<label class="qlabel">Q5. Which Vital Organ Does Vertebral column Protect?</label><br>
+		<br>
+		<input type="radio" class="option"  name="5"><label class="optiontext">1. Kidney</label><br>
+		<br>
+		<input type="radio" class="option"  name="5"><label class="optiontext">2. Lungs</label><br>
+		<br>
+		<input type="radio" class="option"  name="5"><label class="optiontext">3. Heart</label><br>
+		<br>
+		<input type="radio" class="option"  name="5" id="c5"><label class="optiontext" id="c5text">4. Spinal Cord</label>
+	</section>
+	<button id="submit" onclick="getresult()">Submit</button><br>
+	<label id="result"></label><br>
+	<label id="resultpercent"></label>
 </body>
 </html>
