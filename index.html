@@ -6,10 +6,13 @@
 				<title>The Human Skeleton Test</title>
 				<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://firebasestorage.googleapis.com/v0/b/shiveshplayshare.appspot.com/o/styleradiobutton.css?alt=media&token=6cce9f98-6954-42a7-bf6a-8ca11da80430" rel="stylesheet">
+	<link href="https://upload.wikimedia.org/wikipedia/commons/1/11/Blue_question_mark_icon.svg" rel="icon">
 </head>
 
 <body>
 				<script src="main.js"></script>
+	<div class="main">
 	<section class="question">
 	<label class="qlabel">Q1.How Many Bones Are There In An Adult Human Body?</label><br>
 		<br>
@@ -57,16 +60,19 @@
 	<section class="question">
 	<label class="qlabel">Q5. Which Vital Organ Does Vertebral column Protect?</label><br>
 		<br>
-		<input type="radio" class="option"  name="5"><label class="optiontext">1. Kidney</label><br>
+		<input type="radio" class="option" name="5"><label class="optiontext">1. Kidney</label><br>
 		<br>
-		<input type="radio" class="option"  name="5"><label class="optiontext">2. Lungs</label><br>
+		<input type="radio" class="option" name="5"><label class="optiontext">2. Lungs</label><br>
 		<br>
-		<input type="radio" class="option"  name="5"><label class="optiontext">3. Heart</label><br>
+		<input type="radio" class="option" name="5"><label class="optiontext">3. Heart</label><br>
 		<br>
-		<input type="radio" class="option"  name="5" id="c5"><label class="optiontext" id="c5text">4. Spinal Cord</label>
+		<input type="radio" class="option" name="5" id="c5"><label class="optiontext" id="c5text">4. Spinal Cord</label>
 	</section>
+	</div>
 	<button id="submit" onclick="getresult()">Submit</button><br>
+	<section id="hidden" style="display: none;">
 	<label id="result"></label><br>
 	<label id="resultpercent"></label>
+	</section>
 </body>
 </html>

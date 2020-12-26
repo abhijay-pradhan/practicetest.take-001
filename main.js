@@ -28,4 +28,6 @@ function getresult() {
 	document.getElementById("c3text").innerHTML = "4. Cranium".fontcolor("green");
 	document.getElementById("c4text").innerHTML = "1. Knee".fontcolor("green");
 	document.getElementById("c5text").innerHTML = "4. Spinal Cord".fontcolor("green");
+	document.getElementById("hidden").style.display = "block";
+	document.getElementById("main").style.display = "none";
 }
