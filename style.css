@@ -7,6 +7,7 @@
 	font-size: 15px;
 	font-weight: bold;
 	width: 75px;
+    cursor: pointer;
 }
 .font-roboto {
 	font-family: 'Roboto' , sans-serif;
@@ -60,12 +61,28 @@ body {
 	margin-right: 10px;
 	height: 17px;
 	background-color: mediumpurple;
+	cursor: pointer;
 }
 #result {
 	font-size:30px;
 	font-family: 'Roboto' , sans-serif;
 	color: black;
 	margin-top: 50px;
+}
+#sa {
+	background-color:blue;
+	color: white;
+	border-color: blue;
+	border-width: 1px;
+	width: 150px;
+	height: 35px;
+	font-size: 20px;
+	cursor: pointer;
+}
+#sa:hover {
+	background-color:white;
+	color: blue;
+	box-shadow: 1px 1px 1px 1px skyblue;
 }
 #resultpercent {
 	font-size:30px;
