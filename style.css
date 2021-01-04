@@ -64,12 +64,13 @@ body {
 #result {
 	font-size:30px;
 	font-family: 'Roboto' , sans-serif;
-	color: white;
+	color: black;
+	margin-top: 50px;
 }
 #resultpercent {
 	font-size:30px;
 	font-family: 'Roboto' , sans-serif;
-	color: white;
+	color: black;
 }
 .question {
 	width: 50%;

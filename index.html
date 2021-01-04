@@ -13,6 +13,7 @@
 <body>
 				<script src="main.js"></script>
 	<div class="main">
+		<section id="main">
 	<section class="question">
 	<label class="qlabel">Q1.How Many Bones Are There In An Adult Human Body?</label><br>
 		<br>
@@ -68,11 +69,15 @@
 		<br>
 		<input type="radio" class="option" name="5" id="c5"><label class="optiontext" id="c5text">4. Spinal Cord</label>
 	</section>
-	</div>
-	<button id="submit" onclick="getresult()">Submit</button><br>
-	<section id="hidden" style="display: none;">
+		<button id="submit" onclick="getresult()">Submit</button><br>
+		</section>
+			<section id="hidden" style="display: none;">
+				<section class="question">
 	<label id="result"></label><br>
-	<label id="resultpercent"></label>
-	</section>
+	<label id="resultpercent"></label><br>
+				<label onclick="sa()" style="height: 20px; width: 75px;color: blue" id="sa"><u>Show Answers</u></label>
+				</section>
+				</section>
+	</div>
 </body>
 </html>
